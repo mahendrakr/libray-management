@@ -1,0 +1,21 @@
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Author</th>
+      <th scope="col">Publication</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let book of books">
+  	
+    <tr>
+      <th scope="row">{{book.bookId}}</th>
+      <td>{{book.bookName}}</td>
+      <td>{{book.author}}</td>
+      <td>{{book.publication}}</td>
+    </tr>
+    
+    
+  </tbody>
+</table>
